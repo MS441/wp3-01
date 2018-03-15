@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <p>Poloměr: <?php echo $r; ?></p>
+        <p>Obvod kruhu: <?php echo $perimeter; ?></p>
+        <p>Obsah kruhu: <?php echo $area; ?></p>
+        <div style="width: <?php echo $d; ?>px; height: <?php echo $d ?>px; background: red; border-radius: <?php echo $d; ?>px"></div>
+    </body>
+</html>
